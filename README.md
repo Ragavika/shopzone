@@ -1,20 +1,20 @@
 Here’s a concise **project overview file** you can use as a README or an “About” document. It explains your project clearly without being too long:
 
 ```markdown
-# Shopzone_
+Shopzone
 
-## 📖 Overview
+Overview
 Shopzone_ is a React application built with [Vite](https://vitejs.dev/).  
 It serves as a modern, fast, and lightweight starter project for building web applications.  
 The project demonstrates a clean setup with React components, Vite’s build system, and ESLint for code quality.
 
-## ✨ Features
-- ⚡ Fast development with Vite’s hot module replacement
-- 🛠 React 19 with functional components
-- 🔍 ESLint integration for consistent code style
-- 📦 Easy deployment on Vercel or other static hosts
+Features
+-  Fast development with Vite’s hot module replacement
+-  React 19 with functional components
+-  ESLint integration for consistent code style
+-  Easy deployment on Vercel or other static hosts
 
-## 🚀 How to Run Locally
+How to Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/Ragavika/shopzone.git
@@ -30,7 +30,7 @@ The project demonstrates a clean setup with React components, Vite’s build sys
    ```bash
    npm run dev
    ```
-   Open `` in your browser.
+   Open `https://shopzone-xa4g.vercel.app/` in your browser.
 
 4. Build for production:
    ```bash
@@ -41,7 +41,7 @@ The project demonstrates a clean setup with React components, Vite’s build sys
    npm run preview
    ```
 
-## 📂 Project Structure
+Project Structure
 ```
 shopzone_/
 ├── index.html        # Entry HTML file
@@ -53,7 +53,7 @@ shopzone_/
 │   └── ...
 ```
 
-## 📌 Deployment
+Deployment
 On Vercel:
 - **Build Command:** `npm run build`
 - **Output Directory:** `dist`
