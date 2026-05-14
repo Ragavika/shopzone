@@ -57,3 +57,12 @@ Deployment
 On Vercel:
 - **Build Command:** `npm run build`
 - **Output Directory:** `dist`
+
+
+here are the screenshots 
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/52848d93-8114-4429-84f3-6ac4a3b7e3e2" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/4e2a782e-c218-4013-8e60-e4aaa5b8f596" />
+
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/36bc8660-3e3a-4694-9604-5fb5d9360cc9" />
