@@ -1,16 +1,59 @@
-# React + Vite
+Here’s a concise **project overview file** you can use as a README or an “About” document. It explains your project clearly without being too long:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```markdown
+# Shopzone_
 
-Currently, two official plugins are available:
+## 📖 Overview
+Shopzone_ is a React application built with [Vite](https://vitejs.dev/).  
+It serves as a modern, fast, and lightweight starter project for building web applications.  
+The project demonstrates a clean setup with React components, Vite’s build system, and ESLint for code quality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- ⚡ Fast development with Vite’s hot module replacement
+- 🛠 React 19 with functional components
+- 🔍 ESLint integration for consistent code style
+- 📦 Easy deployment on Vercel or other static hosts
 
-## React Compiler
+## 🚀 How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Ragavika/shopzone.git
+   cd shopzone_
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+   npm install react-router-dom
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+   Open `` in your browser.
 
-## Expanding the ESLint configuration
+4. Build for production:
+   ```bash
+   npm run build
+   ```
+   Preview the build:
+   ```bash
+   npm run preview
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+```
+shopzone_/
+├── index.html        # Entry HTML file
+├── vite.config.js    # Vite configuration
+├── package.json      # Project metadata & scripts
+├── src/
+│   ├── App.jsx       # Root React component
+│   ├── main.jsx      # React entry point
+│   └── ...
+```
+
+## 📌 Deployment
+On Vercel:
+- **Build Command:** `npm run build`
+- **Output Directory:** `dist`
